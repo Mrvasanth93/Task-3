@@ -1,0 +1,83 @@
+#home{
+    background-color: aquamarine;
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+*{
+    font-family: MV boli;
+}
+#slide-img{
+    width: 300px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    box-shadow: 2px 2px 20px black;
+}
+.slide h1{
+    text-align: justify;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-family: MV boli;
+    text-align: center;
+}
+.slide p{
+    margin-top: 20px;
+    font-family: MV boli;
+}
+
+
+/*About Page*/
+.about{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#abt{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: MV boli;
+    color: aqua;
+}
+#about img{
+    width: 300px;
+    margin-left: 13%;
+    object-fit: cover;
+}
+#log0{
+    font-family: MV boli;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: aqua;
+    font-size: 25px;
+    text-align: center;
+}
+ #logo span{
+    color: deeppink;
+}
+#about #icon{
+    font-family: MV boli;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: aqua;
+    font-size: 25px;
+    text-align: center;
+}
+#about #icon span{
+    color: deeppink;
+}
+#about #text{
+    font-weight: bolder;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+/*Services paage */
+.services{
+    background-color: black;
+}
